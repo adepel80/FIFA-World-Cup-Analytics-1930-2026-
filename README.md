@@ -1,6 +1,6 @@
-# FIFA-World-Cup-Analytics-Dashboard-1930-2026-
+# FIFA-World-Cup-Analytics-1930-2026-
 
-The FIFA World Cup Analytics Dashboard is an interactive Power BI project that explores the history, performance, and evolution of the FIFA Men's World Cup from 1930 to 2026.
+The FIFA World Cup Analytics  is an interactive Power BI project that explores the history, performance, and evolution of the FIFA Men's World Cup from 1930 to 2026.
 
 The project combines historical tournament statistics with the 2026 match schedule to examine championship records, match outcomes, goal-scoring trends, attendance, host countries, and tournament stages.
 
