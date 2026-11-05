@@ -77,7 +77,7 @@ Step 6: Dashboard Design
 <img width="1916" height="982" alt="Image" src="https://github.com/user-attachments/assets/3674e341-daac-4d61-b7f2-c0b6dd34da66" />
 
 
-## 6. Dashboard Components
+## Dashboard Components
 
 | Visual | Analytical Purpose |
 |---|---|
@@ -108,7 +108,7 @@ Users can explore the dashboard through:
 -  Tournament stage
 
 
-## Conclusion
+# Conclusion
 
 This project provides an overview of the FIFA World Cup's historical achievements and the structure of the 2026 tournament through interactive data visualization. The analysis highlights Brazil's record as the most successful nation, the evolution of goals and attendance over time, and the expansion of the tournament to 48 teams and 104 matches in 2026.
 
