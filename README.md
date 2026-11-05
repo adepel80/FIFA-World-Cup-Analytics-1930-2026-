@@ -48,12 +48,9 @@ Organized the data into analytical tables, including historical results, the 202
 Created DAX measures to calculate key performance indicators such as total World Cups, matches, goals, average attendance, scheduled matches, and host countries.
 
 ### 4. Dashboard Development
-Designed a single-page interactive dashboard with KPI cards, charts, tables, and slicers.
+<img width="1916" height="982" alt="Image" src="https://github.com/user-attachments/assets/3674e341-daac-4d61-b7f2-c0b6dd34da66" />
 
-Added filters for host country, match date, and champion to support interactive exploration of the historical data.
 
-### 5. Analysis and Visualization
-Developed visualizations to communicate the major findings:
 
 - **KPI Cards:** Summarize tournament titles, matches, goals, average attendance, scheduled matches, and host countries.
 - **Most Successful Countries:** Compare countries by the number of World Cup titles.
