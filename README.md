@@ -1,10 +1,41 @@
 # FIFA-World-Cup-Analytics-Dashboard-1930-2026-
 
-The FIFA World Cup is one of the world's most celebrated sporting events, bringing together nations through football and creating a rich history of competition, achievement, and memorable moments. This analysis explores historical World Cup data from 1930 to 2022 alongside the scheduled 2026 tournament to uncover patterns in team performance, championship records, attendance, and tournament structure.
+The FIFA World Cup Analytics Dashboard is an interactive Power BI project that explores the history, performance, and evolution of the FIFA Men's World Cup from 1930 to 2026.
 
-Using Power BI, the data was transformed into an interactive dashboard that enables users to explore historical trends, compare countries, and examine the upcoming tournament's match schedule, host countries, and stadium distribution. The analysis provides a data-driven perspective on the evolution of the World Cup and highlights the value of data visualization in communicating sports insights.
+The project combines historical tournament statistics with the 2026 match schedule to examine championship records, match outcomes, goal-scoring trends, attendance, host countries, and tournament stages.
 
-# Project Objectives
+The dataset is based on publicly available football records and open-source datasets. Historical information was collated from past World Cup tournaments, while the 2026 schedule contains match dates, participating teams, venues, host countries, and tournament stages.
+
+This analysis transforms the raw data into interactive visualizations that make historical patterns and upcoming fixtures easier to explore.
+
+# Data Sources and Background
+
+This project uses publicly available football data from two open-source sources:
+
+### 1. Historical FIFA World Cup Data (1930–2022)
+
+The historical data is referenced from the [Fjelstul World Cup Database](https://worldcups.ai/data), developed by Joshua C. Fjelstul, Ph.D. The database documents the history of the FIFA Men's and Women's World Cups, including tournament results, match statistics, goals, teams, players, stadiums, and attendance.
+
+The dataset is available through [DataHub's FIFA World Cup collection](https://datahub.io/football/worldcup), which organizes the historical records into downloadable CSV files for analysis.
+
+### 2. FIFA World Cup 2026 Schedule
+
+The 2026 fixture data is referenced from [OpenFootball's World Cup repository](https://github.com/openfootball/worldcup.json), an open-source project that provides structured football match data in JSON format.
+
+The schedule covers the expanded 48-team tournament, comprising 104 matches across the group and knockout stages.
+
+### Attribution and License
+
+Historical dataset attribution: Joshua C. Fjelstul, Ph.D. — Fjelstul World Cup Database.
+
+Historical dataset license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+2026 schedule source: OpenFootball — [public-domain data](https://github.com/openfootball/worldcup.json).
+
+**Note:** These are the documented reference sources. Confirm that they match the exact files used in this project before publishing.
+
+
+# Objectives
 
 - Analyze historical World Cup performance and tournament trends.
 - Identify the most successful countries by championship titles.
@@ -19,38 +50,73 @@ Using Power BI, the data was transformed into an interactive dashboard that enab
 - **Power Query:** Data transformation and cleaning.
 - **DAX:** KPI calculations and analytical measures.
 
-## Data Sources and Coverage
+# Data Preparation and Analysis Workflow
 
-The project uses historical FIFA World Cup records and the 2026 tournament schedule.
+Step 1: Data Collection
 
-| Dataset | Coverage | Purpose |
-|---|---|---|
-| Historical World Cup data | 1930–2022 | Analyze past tournaments, champions, goals, attendance, and runner-ups |
-| FIFA World Cup 2026 schedule | 2026 | Analyze scheduled matches, stages, host countries, and stadium distribution |
+Imported the historical World Cup dataset and 2026 match schedule into Power BI from Excel.
 
-# Step-by-Step Analysis
+Step 2: Data Cleaning
 
-### 1. Data Collection
-Collected historical World Cup statistics and the 2026 tournament schedule from the available datasets.
+Reviewed data types, column names, missing values, date and time fields, and country/team naming consistency.
 
-### 2. Data Preparation
-Imported the datasets into Power BI and used Power Query to prepare them for analysis.
+Step 3: Data Modeling
 
-Key preparation activities included:
-- Reviewing column names and data types.
-- Checking for missing or inconsistent values.
-- Ensuring dates, countries, match stages, and numerical fields were correctly formatted.
-- Organizing historical and schedule data into separate tables.
+Organized the historical and schedule tables for analysis, establishing appropriate relationships and measures where required.
 
-### 3. Data Modeling
-Organized the data into analytical tables, including historical results, the 2026 schedule, and tournament stages.
+Step 4: KPI Development
 
-Created DAX measures to calculate key performance indicators such as total World Cups, matches, goals, average attendance, scheduled matches, and host countries.
+Created measures for total World Cup titles, historical matches, goals, average attendance, scheduled matches, and host countries.
 
-### 4. Dashboard Development
+Step 5: Visualization
+
+Selected charts and tables based on the analytical questions, using filters to enable interactive exploration.
+
+Step 6: Dashboard Design
+
 <img width="1916" height="982" alt="Image" src="https://github.com/user-attachments/assets/3674e341-daac-4d61-b7f2-c0b6dd34da66" />
 
+Dashboard Components
 
+Visual
+
+Analytical Purpose
+
+KPI Cards
+
+Summarize historical titles, matches, goals, average attendance, and 2026 schedule figures
+
+Most Successful Countries
+
+Compare countries by number of World Cup titles
+
+World Cup Evolution
+
+Track goals and average attendance across tournaments
+
+Matches by Stage
+
+Examine the distribution of scheduled 2026 matches across tournament stages
+
+Historical Records Table
+
+Display runners-up and top scorers by tournament year
+
+Host Countries Map
+
+Compare host countries using average attendance
+
+2026 Match Timeline
+
+Explore the schedule by date and tournament stage
+
+Stadium Distribution
+
+Compare the number of scheduled matches across stadiums
+
+Total Teams Chart
+
+Show the distribution of teams across the tournament format
 
 - **KPI Cards:** Summarize tournament titles, matches, goals, average attendance, scheduled matches, and host countries.
 - **Most Successful Countries:** Compare countries by the number of World Cup titles.
@@ -62,16 +128,13 @@ Created DAX measures to calculate key performance indicators such as total World
 - **Stadium Distribution:** Compare scheduled matches across stadiums.
 - **Total Teams:** Visualize the distribution of teams in the 2026 tournament.
 
-## Dashboard Insights
 
-The dashboard highlights several important findings:
-
-- Brazil leads the historical championship ranking with five titles.
-- Italy and Germany follow with four titles each.
-- Historical goals and average attendance vary across tournament editions.
-- The 2026 schedule contains 104 matches across multiple tournament stages.
-- The 2026 tournament is scheduled to be hosted across three countries: Canada, Mexico, and the United States.
-- Match distribution varies across the participating stadiums.
+ # Key Insights
+- Brazil's dominance in World Cup history: Brazil leads the championship rankings with five titles, followed by Italy and Germany with four each, highlighting its remarkable consistency at the highest level of international football.
+- Growth of the tournament: The World Cup has expanded significantly over time, with increasing match counts and participation, reflecting its evolution into a global sporting event.
+- Attendance trends: Historical attendance figures reveal fluctuations across tournaments, showing how host countries and tournament editions influence spectator participation.
+- Global hosting and reach: The World Cup has been hosted across multiple continents, demonstrating its international reach and the importance of host nations in shaping the tournament experience.
+- 2026 tournament expansion: The upcoming World Cup features 104 scheduled matches across Canada, Mexico, and the United States, representing a major expansion in tournament structure and scale.
 
 ## Interactive Features
 
