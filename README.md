@@ -76,57 +76,20 @@ Step 6: Dashboard Design
 
 <img width="1916" height="982" alt="Image" src="https://github.com/user-attachments/assets/3674e341-daac-4d61-b7f2-c0b6dd34da66" />
 
-Dashboard Components
 
-Visual
+## 6. Dashboard Components
 
-Analytical Purpose
-
-KPI Cards
-
-Summarize historical titles, matches, goals, average attendance, and 2026 schedule figures
-
-Most Successful Countries
-
-Compare countries by number of World Cup titles
-
-World Cup Evolution
-
-Track goals and average attendance across tournaments
-
-Matches by Stage
-
-Examine the distribution of scheduled 2026 matches across tournament stages
-
-Historical Records Table
-
-Display runners-up and top scorers by tournament year
-
-Host Countries Map
-
-Compare host countries using average attendance
-
-2026 Match Timeline
-
-Explore the schedule by date and tournament stage
-
-Stadium Distribution
-
-Compare the number of scheduled matches across stadiums
-
-Total Teams Chart
-
-Show the distribution of teams across the tournament format
-
-- **KPI Cards:** Summarize tournament titles, matches, goals, average attendance, scheduled matches, and host countries.
-- **Most Successful Countries:** Compare countries by the number of World Cup titles.
-- **World Cup Evolution:** Examine historical changes in goals and average attendance.
-- **2026 Matches by Stage:** Show the distribution of scheduled matches across tournament stages.
-- **Runner-up and Top Scorer:** Display historical records by tournament year.
-- **Host Countries:** Compare average attendance across historical host countries.
-- **2026 Match Schedule Timeline:** Explore the distribution of matches over the tournament period.
-- **Stadium Distribution:** Compare scheduled matches across stadiums.
-- **Total Teams:** Visualize the distribution of teams in the 2026 tournament.
+| Visual | Analytical Purpose |
+|---|---|
+| KPI Cards | Summarize historical titles, matches, goals, average attendance, and 2026 schedule figures |
+| Most Successful Countries | Compare countries by number of World Cup titles |
+| World Cup Evolution | Track goals and average attendance across tournaments |
+| Matches by Stage | Examine the distribution of scheduled 2026 matches across tournament stages |
+| Historical Records Table | Display runners-up and top scorers by tournament year |
+| Host Countries Map | Compare host countries using average attendance |
+| 2026 Match Timeline | Explore the schedule by date and tournament stage |
+| Stadium Distribution | Compare the number of scheduled matches across stadiums |
+| Total Teams Chart | Show the distribution of teams across the tournament format |
 
 
  # Key Insights
@@ -139,18 +102,23 @@ Show the distribution of teams across the tournament format
 ## Interactive Features
 
 Users can explore the dashboard through:
-- Host country, match date, and champion slicers.
-- Interactive charts and cross-filtering.
-- Historical records and tournament schedule tables.
-- Visual comparisons across countries, years, stages, and stadiums.
+- Host country
+-  match date
+-  Champion
+-  Tournament stage
+
 
 ## Conclusion
 
-This project demonstrates how historical sports data and a future tournament schedule can be transformed into an interactive analytical dashboard. It combines data preparation, data modeling, DAX, and visualization to communicate football history and tournament structure.
+This project provides an overview of the FIFA World Cup's historical achievements and the structure of the 2026 tournament through interactive data visualization. The analysis highlights Brazil's record as the most successful nation, the evolution of goals and attendance over time, and the expansion of the tournament to 48 teams and 104 matches in 2026.
+
+By combining historical records with the upcoming tournament schedule, the dashboard makes complex football data easier to understand and explore. The project also demonstrates the value of data analytics in uncovering trends, communicating insights, and supporting informed interpretation of sports data.
 
 
 
 ## Author
 
 **Adebayo E.Oluwapelumi**  
+
+
 
